@@ -1,7 +1,312 @@
-body { font-family: Arial, sans-serif; margin: 24px; color: #222; }
-header { display: flex; justify-content: space-between; align-items: baseline; }
-.controls { display: flex; gap: 16px; margin: 12px 0; align-items: center; }
-.import input { font-size: 12px; }
-table { border-collapse: collapse; width: 100%; }
-th, td { border-bottom: 1px solid #ddd; padding: 6px 8px; text-align: left; vertical-align: top; white-space: pre-line; }
-th { background: #f2f2f2; }
+/* Ember Trophy Guide: a dusk-over-Leonida look of its own — deep navy, warm
+   paper panels, one coral accent. No images, no web fonts, nothing fetched. */
+:root {
+  --ink: #1d2129;
+  --muted: #626a75;
+  --paper: #f6f3ee;
+  --panel: #ffffff;
+  --line: #ddd5c7;
+  --accent: #d24e2a;
+  --accent-soft: #fbe9e2;
+  --gold: #b98a1d;
+  --silver: #6e7a88;
+  --bronze: #a06a3b;
+  --platinum: #4f7d8c;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.5;
+}
+
+.masthead {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 28px 32px 20px;
+  background: #141a26;
+  color: #edeae4;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ff8a66;
+}
+
+.masthead h1 {
+  font-family: Georgia, "Iowan Old Style", Palatino, serif;
+  font-size: 30px;
+  line-height: 1.15;
+  margin: 0 0 8px;
+  max-width: 640px;
+}
+
+.subtitle { margin: 0; color: #b9bfc9; max-width: 640px; font-size: 14px; }
+
+.progress-card {
+  background: #1d2534;
+  border: 1px solid #2c3648;
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  min-width: 260px;
+}
+
+.progress-big {
+  font-family: Georgia, "Iowan Old Style", Palatino, serif;
+  font-size: 30px;
+  margin: 0 0 8px;
+}
+
+.progress-detail { margin: 8px 0 0; font-size: 12px; color: #b9bfc9; }
+
+.bar {
+  height: 8px;
+  background: #e5ded0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-card .bar { background: #2c3648; }
+
+.bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 6px;
+  transition: width 0.2s ease;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  padding: 14px 32px 0;
+}
+
+.tab {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 32px;
+}
+
+.field { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.field-search input { width: 260px; }
+
+input[type="search"], select {
+  font: inherit;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.check { font-size: 13px; display: flex; align-items: center; gap: 6px; }
+.check input { width: 16px; height: 16px; accent-color: var(--accent); }
+
+button, .import {
+  font: inherit;
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: #fff;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+#export { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.import input { font-size: 12px; max-width: 170px; }
+
+.result-count { padding: 0 32px; margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+
+main { padding: 0 32px 32px; }
+
+.checklist-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.trophy-list { display: flex; flex-direction: column; gap: 8px; }
+
+.trophy-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  cursor: pointer;
+}
+
+.trophy-row.selected { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.trophy-row.earned { background: #f3efe6; }
+.trophy-row input[type="checkbox"] { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--accent); flex: none; }
+.row-body { min-width: 0; }
+.row-name { margin: 0 0 2px; font-size: 15px; }
+.row-desc { margin: 0 0 6px; font-size: 13px; color: var(--muted); }
+.row-meta { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.grade {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 20px;
+  color: #fff;
+}
+.grade-platinum { background: var(--platinum); }
+.grade-gold { background: var(--gold); }
+.grade-silver { background: var(--silver); }
+.grade-bronze { background: var(--bronze); }
+
+.tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: #eee9dd;
+  color: var(--muted);
+}
+.tag-hidden { background: #e8e2f2; color: #5b4a8a; }
+.tag-watch { background: var(--accent-soft); color: #a03a1c; }
+.tag-count { background: #e2ecdf; color: #3d6b35; }
+
+.detail-wrap { position: sticky; top: 16px; }
+
+.detail {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+
+.detail-empty { color: var(--muted); margin: 0; }
+.detail-head { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.detail-name {
+  font-family: Georgia, "Iowan Old Style", Palatino, serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+.detail-desc-label, .detail-guide-label, .detail-sources-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 14px 0 4px;
+}
+.detail-desc { margin: 0; font-style: italic; }
+.detail-guide { margin: 0; }
+.detail-earned { display: flex; gap: 8px; align-items: center; font-weight: 600; margin-top: 12px; }
+.detail-earned input { width: 18px; height: 18px; accent-color: var(--accent); }
+.detail-sources { margin: 0; font-size: 13px; color: var(--muted); }
+.detail-sources a { color: var(--accent); }
+.detail-kinds { margin: 14px 0 0; font-size: 12px; color: var(--muted); }
+
+.counter { margin-top: 14px; }
+.counter-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.counter input[type="range"] { width: 100%; accent-color: var(--accent); }
+.counter .bar { margin-top: 6px; }
+
+.view-title {
+  font-family: Georgia, "Iowan Old Style", Palatino, serif;
+  font-size: 26px;
+  margin: 4px 0 8px;
+}
+.view-intro { max-width: 760px; color: var(--muted); margin: 0 0 18px; }
+
+.stage-card, .source-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  max-width: 860px;
+}
+.stage-head { display: flex; align-items: baseline; gap: 12px; }
+.stage-num {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.stage-title {
+  font-family: Georgia, "Iowan Old Style", Palatino, serif;
+  font-size: 20px;
+  margin: 0;
+  flex: 1;
+}
+.stage-count { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.stage-card .bar { margin: 10px 0; }
+.stage-goal { font-weight: 600; margin: 0 0 6px; }
+.stage-advice { margin: 0 0 8px; }
+.stage-trophies { margin: 0; font-size: 12px; color: var(--muted); }
+
+.group-title { font-size: 18px; margin: 22px 0 4px; }
+.group-note { color: var(--muted); max-width: 760px; margin: 0 0 12px; }
+
+.watch-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  max-width: 860px;
+}
+.watch-name { margin: 0 0 2px; font-size: 15px; }
+.watch-desc { margin: 0 0 4px; font-size: 13px; color: var(--muted); }
+.watch-reason { margin: 0; font-size: 13px; }
+
+.source-title { margin: 0 0 4px; font-size: 16px; }
+.source-text { margin: 0; }
+
+.empty { color: var(--muted); padding: 20px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
+
+footer {
+  padding: 0 32px 28px;
+  font-size: 12px;
+  color: var(--muted);
+  max-width: 900px;
+}
+
+@media (max-width: 900px) {
+  .masthead { flex-direction: column; padding: 20px; }
+  .tabs, .toolbar, .result-count, main, footer { padding-left: 16px; padding-right: 16px; }
+  .checklist-layout { grid-template-columns: 1fr; }
+  .detail-wrap { position: static; }
+}

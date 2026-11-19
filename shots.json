@@ -1,5 +1,1 @@
-[
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
-]
+[{"file":"1-checklist.jpg","note":"Checklist with the guide pane open on Maximum Withdrawal: official name, description and grade, progress counter 0/5, cited sources","path":"/","viewport":{"height":800,"width":1280}},{"file":"2-roadmap.jpg","note":"Roadmap to the platinum: five stages in order, with per-stage earned counts","path":"/#view=roadmap","viewport":{"height":800,"width":1280}},{"file":"3-missables.jpg","note":"Missables watch list: story-locked trophies and single-event watch trophies, with the honest verdict up top","path":"/#view=missables","viewport":{"height":800,"width":1280}},{"file":"4-spoilers.jpg","note":"Checklist with the spoiler setting on: story trophies hidden until earned, filters and export/import visible","path":"/","viewport":{"height":800,"width":1280}}]

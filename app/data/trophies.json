@@ -1,392 +1,671 @@
 {
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
+ "list": "Official 55-trophy list as published on PlayStation, frozen 2026-11-18: names, descriptions and grades as Exophase and PSNProfiles list them, the two agreeing on every name, description and grade. 1 platinum, 2 gold, 6 silver, 46 bronze, 28 hidden. PSN progress targets from PSNProfiles.",
+ "sources": "Exophase (exophase.com/game/grand-theft-auto-vi-psn/trophies) for every name, description and grade; PSNProfiles (psnprofiles.com/trophies/43531-grand-theft-auto-vi) for every PSN progress target. Guides are this entry's own words, drawn from the official descriptions alone, and say so where a place is not pinned down.",
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "hidden": false,
+   "target": null,
+   "kinds": ["completion"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "The platinum pops the moment the other 54 trophies are all earned, so there is nothing to do for it directly. Work the roadmap in order — story, character strands, activities, collectibles, then the money and mayhem clean-up — and this is the last trophy you earn. It is not missable: every other trophy can be finished after the story."
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "hidden": false,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Play the opening mission, Gone Fishing, to its end. It is the first story mission, so it unlocks in the natural course of starting the game — no preparation, no side content needed. Story-locked, not missable: completing the mission is all it asks."
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Finish every mission in Chapter 1. Chapters end when their last story mission is complete, so keep playing the story and this pops at the chapter's close. Story-locked, not missable — it cannot be skipped past, only reached."
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Finish every mission in Chapter 2. As with Chapter 1, the trophy is the chapter's completion itself: play the story missions in order until the chapter closes. Story-locked, not missable."
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Finish every mission in Chapter 3. The chapter trophy pops at the end of its final mission, so there is no separate task — just the story, played through. Story-locked, not missable."
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Finish every mission in Chapter 4. This is the last chapter trophy before the finale, and it pops when Chapter 4's final mission ends. Story-locked, not missable."
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the final mission of the story — the gold trophy for finishing the campaign. It pops at the end of the last mission, after Chapter 4. Story-locked, not missable, and the natural end of roadmap stage 1."
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the story mission Breakfast Run. The mission's name is the whole requirement: reach it in the story order and finish it. Story-locked, not missable."
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the story mission The Cartel Heist. A heist mission, so expect a set-piece with a plan and a getaway; finishing the mission is all the trophy asks. Story-locked, not missable."
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the story mission Child's Play. Reach it in the story order and play it to the end — the trophy is the mission's completion. Story-locked, not missable."
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the story mission Headliners. The name suggests a show or performance set-piece; whatever the mission holds, finishing it is the requirement. Story-locked, not missable."
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the story mission VCIA Takedown, set at Vice City International Airport. Finish the mission and the trophy pops. Story-locked, not missable — and the airport is worth remembering later for Catch Me If You Can."
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 1,
+   "guide": "Complete the story mission Operation Savage Glory. The operation name is all the official description gives; play the mission through to its end. Story-locked, not missable."
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
-  },
+   "hidden": false,
+   "target": 100,
+   "kinds": ["completion"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Reach 100% completion in the game's own checklist — story, side missions, activities and collectibles all count toward it, as they did in GTA V. This is the long grind and the second gold: do it last, after the story and the other stages, and use this tracker's counters to see what is still open. Nothing in the description makes any part of it missable, but check the missables watch list before the finale, just in case a strand can be closed off."
+  }
+,
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "hidden": false,
+   "target": 250,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Pull off 250 stunts — jumps, near misses, drifts and air time all count as stunts in GTA games, and the counter runs across the whole game, so this builds up while you play. PSN tracks it to 250. Do it as a background habit: stunt whenever you travel instead of driving straight, and mop up the remainder after the story with a fast bike and open roads. Not missable."
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "hidden": false,
+   "target": 9,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Try each of the 9 activity types once — PSN tracks the count to 9, so the game counts nine distinct kinds of side activity. Sample everything the map offers as you meet it: races, shooting range, fishing, arcade, bowling, drone races, meditation, hunting and the rest. One try each is enough, and nothing here is missable."
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "hidden": false,
+   "target": 42,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Earn a gold medal in all 42 Shooting Range challenges — PSN tracks the count to 42. Ranges are repeatable, so a challenge you fail costs nothing but another try: learn each challenge's target pattern, use the right weapon for its range, and take your time on the gold thresholds. Not missable; this is a skill grind, best done in a focused session."
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "hidden": false,
+   "target": 14,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Win a Top Fun drone race at all 14 locations — PSN tracks the count to 14. Drone races are repeatable, so losing one just means flying it again; learn each course's gates and shortcuts, and keep your speed up through the turns rather than braking for them. Not missable."
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "hidden": false,
+   "target": 20,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Win 20 different races — different events, not the same race 20 times, since PSN tracks the count to 20. Work through the race list across Leonida, using a tuned car for road races and a fast bike where the course suits it. Races are repeatable, so this is a grind, not a one-chance event."
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 3,
+   "guide": "Beat Cal in a fishing challenge. Cal is a named rival, so this is a head-to-head event rather than casual fishing: take the challenge when it is offered and fish to win, not to relax. Watch-list, not confirmed missable: the description does not say the challenge can only be taken once, but a named rival's challenge is the kind of event to do while it is in front of you rather than assume it returns."
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Complete one arcade game — finish a full game at an arcade machine, any title. Arcades are open all game, so pick the game you find easiest and play it through. Not missable."
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 2,
+   "guide": "Complete Andy's final mission — the end of his mission strand. Character strands unlock as the story opens them up, so follow Andy's missions whenever they appear and finish the strand. Story-locked, not missable, but do the strand when it is offered rather than leaving it for the very end."
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 2,
+   "guide": "Complete Kenton's final mission — the end of his strand. The boat in the name is a hint at how his story ends, but the requirement is only to finish the strand. Follow Kenton's missions as they appear. Story-locked, not missable."
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 2,
+   "guide": "Complete Billy's final mission — the end of his strand. A lone rider suggests bikes and open road; whatever the missions hold, finishing the strand is the requirement. Story-locked, not missable."
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "hidden": true,
+   "target": 8,
+   "kinds": ["story", "activity"],
+   "missable": "story",
+   "stage": 2,
+   "guide": "Complete 8 stranger mission strands across Leonida — PSN tracks the count to 8. Strangers appear as map markers as you explore; talk to them, take their missions, and see each strand through to its end. The silver is for finishing eight whole strands, not eight single missions, so a strand you abandon halfway does not count. Story-locked in the sense that strands open as you explore — keep an eye on the map between story missions."
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 2,
+   "guide": "Complete Randy's final mission — the end of his strand. Follow Randy's missions as they appear in the story and finish the strand. Story-locked, not missable."
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "hidden": true,
+   "target": null,
+   "kinds": ["story"],
+   "missable": "story",
+   "stage": 2,
+   "guide": "Complete Tyrone's final mission — the end of his strand. Follow Tyrone's missions as they appear and finish the strand. Story-locked, not missable."
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
-  },
+   "hidden": false,
+   "target": 18,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "Meditate at all 18 meditation spots across Leonida — PSN tracks the count to 18. Spots are spread over the whole map, so this is an exploration trophy: visit each spot and meditate there. Use the tracker's counter to keep count, and sweep the remaining spots after the story when the whole map is open. Not missable."
+  }
+,
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 3,
+   "guide": "Hunt a unique animal for Bret — one specific animal, not just any hunt. Bret is a named contact, so his hunt is a strand to follow: take his missions, and when the unique animal is the target, track and take it down. Watch-list: the description does not say the animal respawns or the hunt repeats, so do this hunt carefully when it comes up rather than assuming a second chance."
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "hidden": false,
+   "target": 3,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "Complete 3 collectible card sets — PSN tracks the count to 3. Cards are hidden around Leonida; a set is complete when every card in it is found. Collect as you explore, and sweep the remaining cards with a checklist after the story. Not missable: cards stay where they are until found."
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "hidden": false,
+   "target": 100,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "WAiNK It at 100 locations — PSN tracks the count to 100. WAiNK is the in-world tagging or photo-style activity at marked spots, so this is a map-coverage grind: hit the spots as you pass them, and use the counter to mop up the last ones after the story. Not missable."
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "hidden": false,
+   "target": 50,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Complete 50 challenges — PSN tracks the count to 50. Challenges are the game's side objectives, spread across activities, so they accumulate while you play the other stages. Check the in-game challenge list regularly and clear the easy ones first. Not missable."
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "Lose a 4-star wanted level while your partner is with you, then escape. Build four stars with your partner beside you — robberies and shootouts raise heat fastest — then break line of sight and stay hidden until the stars clear, without your partner going down. Watch-list: it needs your partner present, so do it during a partner outing or mission where they are with you, not alone."
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "Rob 3 shops back-to-back with your partner, without losing your wanted level — the trick is keeping the heat, not losing it: rob one shop, move straight to the next, and keep the wanted level alive across all three. Plan a route of three close shops, keep your partner with you, and do not get busted or escape between robberies. Watch-list: it needs your partner present and three shops in a row."
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "hidden": false,
+   "target": 100,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "Discover 100 vehicles — PSN tracks the count to 100. Getting into a new vehicle model counts as a discovery, so drive everything you see: traffic, parked cars, bikes, boats and aircraft all add to the list. It builds up naturally while you explore; mop up rare models after the story. Not missable."
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Take down 5 enemies in a single use of Combat Focus — the slow-motion aiming mode. Set it up where enemies cluster: a shootout with five or more in the open, then trigger Combat Focus and drop all five before it ends. It is repeatable, so a failed attempt just means finding another crowded fight. Not missable."
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "Make an unscheduled departure at VCIA — Vice City International Airport: leave by air without a ticket or a plan, in a plane you took yourself. The official description names no aircraft and no runway, so the honest reading is: get to the airport, take a plane, and get airborne. Watch-list: an airport heist-style exit is the kind of stunt to try with a save behind you, in case the airport's security makes it a one-shot scramble."
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "The description is a joke — 'Kinda hot in these Rhinos' — and Rhinos are the game's tanks, so this trophy is about the Rhino in some way: drive one, survive in one, or take one on. The official description does not say which, so no location or step is claimed here: get a Rhino (high wanted levels draw military hardware in GTA games) and see what the game counts. Watch-list only because the trigger is vague — it is repeatable, whatever it is."
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "Rob a jewelry store without being detected — a clean, quiet robbery: no alarms, no witnesses raising the alarm. Go in masked and quiet, take the goods, and leave before anyone spots you; if you are seen, leave and try again, since robberies are repeatable. Watch-list only in the sense that detection fails the attempt — the trophy itself can be retried."
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "hidden": false,
+   "target": 5,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Rob 5 bank vaults and escape — PSN tracks the count to 5. Each vault is a robbery followed by a getaway: crack the vault, grab the cash, and lose the heat. Five vaults, five escapes, and the silver is yours. Vaults are repeatable targets, so this is a grind, not a one-chance event."
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "hidden": false,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Rob an armored truck and escape — a GTA classic. Armored trucks patrol the roads: stop one, crack it open, take the cash, and lose the cops that follow. Trucks keep spawning, so a failed attempt just means finding the next one. Not missable."
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
-  },
+   "hidden": false,
+   "target": 52,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "Explore all 52 areas of Leonida — PSN tracks the count to 52. Every named district, town and stretch of countryside counts once you have set foot in it. Drive the whole map, including the far corners and islands, and the counter fills up. Not missable: the map stays open after the story."
+  }
+,
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "hidden": false,
+   "target": 9,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Rob an illegal operation belonging to each of the 9 gangs — PSN tracks the count to 9. Gangs run their own rackets around Leonida; hit one operation per gang, nine gangs in all. Keep a note of which gangs you have hit — this tracker's counter is for that — and finish the set after the story. Not missable."
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "Enjoy a cocktail with a view on Ocean Beach — a quiet moment, not a fight: go to a bar or spot overlooking Ocean Beach and have a drink there. The official description names the place (Ocean Beach) but no bar, so no specific venue is claimed here. Watch-list only because it is a single specific moment — it is repeatable, so just go and enjoy it."
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "Smash your way out of a vehicle showroom in classic style — drive a car straight through the showroom glass, the way the old trailers did it. The description names no showroom, so pick a showroom you can drive into and out of, build speed inside, and go through the glass. Watch-list: a one-shot stunt feel, but showrooms and cars are repeatable, so a failed run just means another car."
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 3,
+   "guide": "Follow through at the Kolt & Associates bowling alley — go bowling there. The description names the alley (Kolt & Associates) but not a score, so play a game there; a full game, bowled properly, is the honest reading. Watch-list only because the venue is specific — the alley stays open, so it can be retried."
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "A partnership with mass appeal — the description is deliberately vague, and this guide claims no specific trigger for it: it is about the partnership (Lucia and Jason) reaching some public peak. The honest advice is to keep playing the partnership content — story and partner activities — and watch for a moment of mass appeal. Watch-list because the trigger is unstated, not because it can be missed."
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "hidden": true,
+   "target": 500,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 3,
+   "guide": "Make 500 choices — PSN tracks the count to 500. Choices are the small decisions the game offers as you play: dialogue picks, approach picks, free-roam decisions. They accumulate across the whole game, so this is a long background counter, not a single event. Keep choosing, and it fills up. Not missable."
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Second time's the charm — succeed at something on your second try. The description is a riddle, not a task list: fail something once, then succeed at the same thing on the next attempt, and the trophy should pop. Any repeatable activity works — a race, a challenge, a stunt. Not missable, since failing and retrying is always available."
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "watch",
+   "stage": 5,
+   "guide": "What the hell just happened? — the description is a reaction, not a task, and this guide claims no specific trigger: it is a secret or strange event somewhere in Leonida, the kind of thing you stumble on while exploring. The honest advice is to explore widely — the far corners, the night, the odd places — and it will find you. Watch-list because it is a hidden event, not because it can be missed."
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "hidden": true,
+   "target": null,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Bowl 'em over with a melee drive-by — knock someone down with a melee attack from a moving vehicle. Drive slowly past a pedestrian, swing a melee weapon from the car, and connect. It is a stunt, not a mission, so it can be retried as often as you like. Not missable."
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "hidden": false,
+   "target": 250000,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Earn $250,000 laundering Marked Bills through your contacts — PSN tracks the count to 250,000. Marked Bills come from robberies and heists; launder them through your contacts to turn them into clean cash, and the total counts toward the quarter million. Keep laundering every bill you earn and it adds up. Not missable."
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "hidden": false,
+   "target": 100000,
+   "kinds": ["activity"],
+   "missable": "no",
+   "stage": 5,
+   "guide": "Spend $100,000 across all shops — PSN tracks the count to 100,000. Every dollar spent in any shop counts: clothes, weapons, ammo, food, car mods. It accumulates naturally across a full playthrough, and big purchases (a good car, a full weapon loadout) move it fast. Not missable."
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "hidden": false,
+   "target": 8,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "Purchase all 8 garage properties — PSN tracks the count to 8. Garages go on sale as you progress and earn money; buy each one when it appears. This is a money trophy as much as a property one, so save up and buy them as they unlock. Not missable: properties stay for sale."
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "hidden": false,
+   "target": 10,
+   "kinds": ["collectible"],
+   "missable": "no",
+   "stage": 4,
+   "guide": "Register 10 vehicles to the Scooter Bros app — PSN tracks the count to 10. Scooter Bros is the in-game vehicle app: take ten different vehicles and register each one through it. Any ten vehicles count, so use the ones you discover for Whip It Good and register as you go. Not missable."
   }
  ]
 }

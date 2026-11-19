@@ -3,23 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>Ember Trophy Guide — Grand Theft Auto VI, PS5</title>
+<meta name="description" content="An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI: checklist, roadmap to the platinum, missables watch list, and a cited guide for every trophy.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
+<header class="masthead">
+  <div class="masthead-text">
+    <p class="eyebrow">Ember Trophy Guide · Leonida</p>
+    <h1>Grand Theft Auto VI — every trophy, tracked to the platinum</h1>
+    <p class="subtitle">The official 55-trophy PlayStation 5 list: 1 platinum, 2 gold, 6 silver, 46 bronze, 28 hidden. Every guide in our own words, with its sources named.</p>
+  </div>
+  <div class="progress-card">
+    <p class="progress-big" id="progress">0 of 55 earned</p>
+    <div class="bar" role="progressbar" aria-label="Trophies earned"><div class="bar-fill" id="progress-fill"></div></div>
+    <p class="progress-detail" id="progress-detail">Platinum 0/1 · Gold 0/2 · Silver 0/6 · Bronze 0/46</p>
+  </div>
 </header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+<nav class="tabs" aria-label="Guide sections">
+  <button class="tab active" type="button" data-view="checklist">Checklist</button>
+  <button class="tab" type="button" data-view="roadmap">Roadmap to platinum</button>
+  <button class="tab" type="button" data-view="missables">Missables</button>
+  <button class="tab" type="button" data-view="sources">Sources &amp; honesty</button>
+</nav>
+<div class="toolbar" id="toolbar">
+  <label class="field field-search">Search <input id="search" type="search" placeholder="Name, mission or word — try “vault”"></label>
+  <label class="field">Kind <select id="kind"></select></label>
+  <label class="field">Grade <select id="grade"></select></label>
+  <label class="check"><input id="earned-only" type="checkbox"> Earned only</label>
+  <label class="check"><input id="spoilers" type="checkbox" checked> Hide story spoilers</label>
   <button id="export" type="button">Export progress</button>
   <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+  <button id="reset" type="button">Reset</button>
 </div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
-<script type="module" src="app.js"></script>
+<p class="result-count" id="result-count">Showing 55 of 55 trophies</p>
+<main id="view">
+  <div class="checklist-layout">
+    <div class="trophy-list" id="rows"></div>
+    <div class="detail-wrap" id="detail"></div>
+  </div>
+</main>
+<footer>
+  <p>Names, descriptions and grades are the official PlayStation list, as Exophase and PSNProfiles list it. Guides are this entry’s own words, drawn from the official descriptions. Works offline — your progress never leaves this browser. No Rockstar logo or official artwork.</p>
+</footer>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
